@@ -1,0 +1,188 @@
+/* .main{
+    display: flex; */
+/* } */
+.item{
+    text-align: right;
+}
+.nam{
+    display: flex;
+    text-align: right;
+}
+.team{
+    margin-left: 10%;
+    justify-content: left;
+    text-align: left;
+}
+.tools{
+    display: flex;
+    
+}.best{
+    justify-content: center;
+}
+.one{
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+    background-color: rgb(59, 59, 126);
+}
+.puma{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 30%;
+}
+.two{
+    width: 70px;
+    height: 70px;
+}
+.nike{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 30%;
+}
+.three{
+    width: 50%;
+    height: 50%;
+}
+.adidas{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 30%;
+}
+.shoes{
+    display: flex;
+    gap: 2rem; 
+} 
+.features{
+    text-align: center;
+}
+.kinds{
+    display: flex;
+    gap: 2rem;
+}
+.A{
+    width: 20%;
+    height: 20%;
+}
+.x{
+    width: 40%;
+    height: 40%;
+}
+.y{
+    width: 40%;
+    height: 40%;
+}
+.z{
+    width: 50%;
+    height: 50%;
+}
+.item1{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.item2{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.item3{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.item4{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.collection{
+    display: flex;
+    gap: 2rem;
+}
+.shoeforce{
+    width: 50%;
+    height: 40%;
+}
+.shoe1{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.shoe2{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.shoe3{
+    border: 2px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.shoe4{
+    border: 20px solid;
+    border-radius: 30px;
+    width: 20%;
+}
+.newCollection{
+    display: flex;
+    gap: 2rem;
+}
+.term{
+    width: 70%;
+    height: 30%;
+    align-items: center;
+}
+.tem{
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    
+
+}
+.content{
+    display: flex;
+}
+/* .element{
+    margin-left: 5%;
+
+}
+.elements{
+    justify-content: right;
+} */
+.test{
+    display: flex;
+
+}
+.elements{
+    display: flex;
+}
+
+.red{
+    text-decoration: line-through red;
+}
+.buttons-shoe{
+    display: flex;
+}
+.read{
+    display: flex;
+    justify-content: right;
+}
+.bs{
+    display: flex;
+    margin-right: 10%;
+    padding-right: 10%;
+}
+.trial{
+    justify-content: left;
+    margin-left: 10%;
+}
+.done{
+    display: flex;
+    margin-left: 45%;
+}
+.prof{
+    width: 150px;
+    heght: 150px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
