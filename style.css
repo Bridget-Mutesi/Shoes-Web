@@ -1,52 +1,82 @@
-/* .main{
-    display: flex; */
+body{
+    background-color: rgb(191, 182, 182);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.image{
+    position: relative;
+    width: 700px;
+    height:600px;
+    float:right;
+    bottom: 350px;
+}
+.fake{
+    position: relative;
+    /* margin-right: 100px; */
+    padding-bottom: 500px;
+}
+
+/* .items{
+    text-align: right; */
 /* } */
-.item{
-    text-align: right;
-}
-.nam{
-    display: flex;
-    text-align: right;
-}
 .team{
-    margin-left: 10%;
+    /* margin-left: 10%;
     justify-content: left;
     text-align: left;
+    float: left; */
+    margin-top: 10%;
+    text-align: left;
+    padding-right: 100px;
+    
 }
 .tools{
-    display: flex;
+    /* display: flex; */
+    background-image: url(/images/bg_720.png);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+
     
 }.best{
-    justify-content: center;
+    text-align: center;
 }
-.one{
-    width: 70px;
-    height: 70px;
-    border-radius: 10%;
-    background-color: rgb(59, 59, 126);
+.img1{
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(skyblue,purple);
+    border-radius: 15%;
 }
 .puma{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 30%;
+    border: solid white;
+    background-color: white;
+    border-radius: 15%;
+    display: flex;
+    
 }
 .two{
-    width: 70px;
-    height: 70px;
+    width: 250px;
+    height: 300px;
+    border-radius: 15%;
+    background-image: linear-gradient(skyblue,red);
 }
-.nike{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 30%;
+.nike1{
+    border: solid white;
+    border-radius: 15%;
+    display: flex;
+    background-color: white;
 }
 .three{
-    width: 50%;
-    height: 50%;
+    width: 250px;
+    height: 300px;
+    border-radius: 15%;
+    background-image: linear-gradient(purple,blue);
 }
-.adidas{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 30%;
+.adidas1{
+    border: solid white;
+    border-radius: 15%;
+    display: flex;
+    background-color: white;
 }
 .shoes{
     display: flex;
@@ -60,27 +90,27 @@
     gap: 2rem;
 }
 .A{
-    width: 20%;
-    height: 20%;
+    width: 200px;
+    height: 200px;
 }
 .x{
-    width: 40%;
-    height: 40%;
+    width: 200px;
+    height: 200px;
 }
 .y{
-    width: 40%;
-    height: 40%;
+    width: 200px;
+    height: 200px;
 }
 .z{
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
 }
-.item1{
+/* .item1{
     border: 2px solid;
     border-radius: 30px;
     width: 20%;
-}
-.item2{
+} */
+/* .item2{
     border: 2px solid;
     border-radius: 30px;
     width: 20%;
@@ -91,45 +121,66 @@
     width: 20%;
 }
 .item4{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 20%;
-}
+    border: solid white;
+    border-radius: 15%;
+    background-color: white;
+    height: 10%; */
+/* } */
 .collection{
     display: flex;
     gap: 2rem;
 }
 .shoeforce{
-    width: 50%;
-    height: 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
 }
-.shoe1{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 20%;
+.force{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+.nikforce{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+.black{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+/* .shoe1{
+    border: solid white;
+    border-radius: 15%;
+    background-color: white;
+    height: 10%;
 }
 .shoe2{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 20%;
+    border: solid white;
+    border-radius: 15%;
+    background-color: white;
+    height: 20%;
 }
 .shoe3{
-    border: 2px solid;
-    border-radius: 30px;
-    width: 20%;
+    border: solid white;
+    border-radius: 15%;
+    background-color: white;
+
 }
 .shoe4{
-    border: 20px solid;
-    border-radius: 30px;
-    width: 20%;
-}
+    border: solid white;
+    border-radius: 15%;
+    background-color: white;
+    
+} */
 .newCollection{
     display: flex;
     gap: 2rem;
 }
 .term{
-    width: 70%;
-    height: 30%;
+    width: 100%;
+    height: 70%;
     align-items: center;
 }
 .tem{
@@ -142,13 +193,6 @@
 .content{
     display: flex;
 }
-/* .element{
-    margin-left: 5%;
-
-}
-.elements{
-    justify-content: right;
-} */
 .test{
     display: flex;
 
@@ -186,3 +230,184 @@
     vertical-align: middle;
     border-radius: 50%;
 }
+.radio{
+    padding: 20px;
+    width: 70%;
+    margin: 5%;
+    background-color: pink;
+    border-radius: 5%;
+    text-align: center;
+}
+.set{
+    border-radius: 5%;
+    background-color: orangered;
+    color: white;
+    border: solid orange;
+}
+.put{
+    border-radius: 5%;
+}
+.logo1{
+    width: 40px;
+    height:40px;
+}
+.footer{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: rgb(246, 89, 89);
+    color: white;
+}
+.logo2{
+    width: 50px;
+    height:50px;
+}
+.buttons-shoe{
+    background-color:red;
+}
+.try{
+    border-color: orangered;
+    color: red;
+}
+.spa{
+    color:red;
+}
+.spe{
+    color: red;
+}
+.let{
+    display: flex;
+    gap: 2rem;
+}
+.dot{
+    color: red;
+}
+.button{
+    background-color: rgb(234, 40, 40);
+    border-radius: 10%;
+    width: 40%;
+    height: 20%;
+}
+ .nav ul li{
+    display: flex; 
+    list-style: none;
+    float: right;
+    padding-right: 150px;
+ }   
+.nav1 ul li{
+     gap: 15rem;
+     text-align: justify; 
+     list-style: none;
+     float: left;
+     justify-content: space-between;
+     padding-left: 60px;
+}
+.navigation{
+    /* list-style: none;
+    display: flex; 
+    float:left; 
+    display: inline-block; 
+    justify-content: space-between; 
+     padding-left: 70px;  */
+}
+.first{
+    display:flex; 
+}
+/* .nam{
+    text-align: right;
+    padding-right: 50px;
+    display: flex;
+} */
+/* position: relative
+list-style: none;
+float: :left
+bottom:100px
+left:800px; */
+.img{
+    width:100px;
+    height:100px;
+}
+.let{
+    gap: 5rem;
+}
+.mercy{
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+.test{
+    gap: 2rem;
+}
+.min{
+    color:red;
+}
+.on{
+    box-lines: color red;
+}
+.off{
+    color: red;
+}
+.size{
+    color: red;
+}
+.spen{
+    background-color: red;
+    border-radius: 300%;
+}
+.add{
+    background-image: linear-gradient(red,orangered);
+    border: none;
+    border-radius: 10%;
+    width: 40%;
+    height: 5%;
+}
+.but{
+    border: color red,orange;
+}
+.takes{
+    background-color: white;
+}
+/* .tools{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+} */
+/* @media only screen and(max-width:541px){
+    first{
+        grid-template-columns: repeat(1,1fr);
+    }
+    team{
+        grid-template-columns: repeat(1,1fr);
+    }
+    fake{
+        grid-template-columns: repeat(1,1fr);
+    } */
+/* } */
+@media only screen and (max-width:1401px){
+    image{
+        position: relative;
+        width: 100%;
+        height:50px;
+        float:right;
+        bottom: 350px;
+    }
+    puma{
+        width: 5px;
+        height: 5px;
+        border-radius: 4%;
+    }
+    nike1{
+        width:5px;
+        height: 5px;
+    }
+    adidas1{
+        width:5px;
+        height: 5px;
+
+    }
+}
+
+
+
+    
+
+
+
