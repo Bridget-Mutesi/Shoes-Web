@@ -84,7 +84,7 @@
         background-color: white;
     }
     .shoes{
-        display: flex;
+        display: grid;
         gap: 2rem; 
     } 
     .features{
@@ -210,7 +210,7 @@
     
     }
     .content{
-        display: flex;
+        display: grid;
     }
     .test{
         display: grid;
@@ -322,6 +322,7 @@
          justify-content: space-between;
          padding-left: 60px;
     }
+    
     .navigation{
         /* list-style: none;
         display: flex; 
@@ -550,7 +551,27 @@
         }
         shoes{
             display: grid;
-            grid-template-columns: repeat(1);
+            grid-template-columns: min-width(2, 1fr);
+        }
+        .content{
+            display: grid;
+            grid-template-columns: min-width(0,1fr);
+        }
+        .newmarks{
+            display: gid;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 500px; 
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+        nav1 li:hover{
+            color:white;
+            cursor: pointer;
+        }
+        nav1 > li{
+            margin: 0 1rem;
+            overflow: hidden;
         }
     
     
